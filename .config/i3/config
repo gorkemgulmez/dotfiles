@@ -204,3 +204,5 @@ bindsym XF86AudioPrev exec playerctl previous
 #exec --no-startup-id xfce4-panel --disable-wm-check
 	#for background
 exec --no-startup-id feh --randomize --bg-fill ~/Pictures/Background/*
+#transparent screen for rofi
+exec --no-startup-id compton
