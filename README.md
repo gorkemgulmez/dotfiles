@@ -1,7 +1,7 @@
-#Personal Configuration Files
+# Personal Configuration Files
+## .Xresources
+Rofi settings (color-normal)  
+* 'bg', 'fg', 'bgalt', 'hlbg', 'hlfg'  
+* aarrggbb  
 
-##.Xresources
-	Rofi settings (color-normal)
-	.'bg', 'fg', 'bgalt', 'hlbg', 'hlfg'
-	.aarrggbb
-	See rofi manual page for more detail
+See rofi manual page for more detail
