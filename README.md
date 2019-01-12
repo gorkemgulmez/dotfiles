@@ -7,6 +7,13 @@ Rofi settings (color-normal)
 See rofi manual page for more detail
 
 ## Keyboard
-package: xbindkeys
-file: ~/.xbindkeysrc
-command: xbindkeys
+
+### xbindkeys
+* package: xbindkeys
+* file: ~/.xbindkeysrc
+* command: xbindkeys
+
+### Shortcuts
+* show desktop: meta+d
+* workspace 1: meta + 1
+* workspace 2: meta + 2
