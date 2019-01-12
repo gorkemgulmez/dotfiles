@@ -5,3 +5,8 @@ Rofi settings (color-normal)
 * aarrggbb  
 
 See rofi manual page for more detail
+
+## Keyboard
+package: xbindkeys
+file: ~/.xbindkeysrc
+command: xbindkeys
