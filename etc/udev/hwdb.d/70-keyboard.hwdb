@@ -1,0 +1,9 @@
+#update:
+# sudo systemd-hwdb update
+# sudo udevadm trigger /dev/input/event4
+# for all: udevadm trigger --verbose --sysname-match="event*"
+#line: 1406
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svnARCELIKA.S.:pnGNB1574V1i5:pvr*
+ KEYBOARD_KEY_a0=!                                      # mute
+ KEYBOARD_KEY_ae=!                                      # volume down
+ KEYBOARD_KEY_b0=!                                      # volume up
