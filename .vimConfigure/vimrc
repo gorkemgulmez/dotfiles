@@ -1,7 +1,13 @@
-"Mod List
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-set runtimepath^=~/.vim/bundle/nerdtree
+" Runtime Path Manipulation
+execute pathogen#infect()
 
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+" Show line numbers
+set number
 
 " An example for a vimrc file.
 "
@@ -65,17 +71,8 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
-set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-
-" Show line numbers
-set number
-
 " Remap move buttons
 " ı->up k->down j->left l->rigth
 noremap j h
 noremap k j 
 noremap ı k
-
