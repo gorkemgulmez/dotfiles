@@ -1,0 +1,9 @@
+" Remap move buttons
+" ı->up k->down j->left l->rigth
+noremap j <Left>
+noremap k <Down>
+noremap ı <Up>
+imap <ALT-h> <Esc>
+# gvim copy paste commands
+vnoremap <C-c> "+y
+map <C-p> "+p

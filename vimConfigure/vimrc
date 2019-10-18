@@ -1,5 +1,13 @@
-" Runtime Path Manipulation
-execute pathogen#infect()
+" Package installer
+call plug#begin('~/.vim/plugged')
+Plug 'vimwiki/vimwiki'
+Plug 'itchyny/lightline.vim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'mattn/emmet-vim'
+call plug#end()
 
 set expandtab
 set tabstop=4
@@ -73,6 +81,11 @@ endif
 
 " Remap move buttons
 " ı->up k->down j->left l->rigth
-noremap j h
-noremap k j 
-noremap ı k
+noremap j <Left>
+noremap k <Down>
+noremap ı <Up>
+imap <ALT-h> <Esc>
+
+" gvim copy paste commands
+vnoremap <C-c> "+y
+map <C-p> "+p

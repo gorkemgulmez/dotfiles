@@ -29,12 +29,13 @@ gesture swipe down 4 xdotool key super+d
 
 > Tlp settings at: /etc/default/tlp  
 ```bash
+ENERGY_PERF_POLICY_ON_AC=performance
+ENERGY_PERF_POLICY_ON_BAT=power
 START_CHARGE_THRESH_BAT0=40
 STOP_CHARGE_THRESH_BAT0=80
 ```
 
 #### Todo List
 * [ ] 3-4 finger gestures
-* [ ] Auto install vim packages
 * [x] Fix Fn keys
 * [ ] Missing modules
